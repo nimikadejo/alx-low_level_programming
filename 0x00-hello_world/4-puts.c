@@ -1,7 +1,7 @@
 #include <stdio.h>
-
+/* putchar wrks like printf*/
 int main(void)
 {
-	int puts(int c,"\"Programming is like building a multilingual puzzle");
-	return 0;
+        putschar("\"Programming is like building a multilingual puzzle");
+	return (0);
 }
