@@ -1,7 +1,12 @@
 #include <stdio.h>
-/* putchar wrks like printf*/
+
+/**
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
-        putschar("\"Programming is like building a multilingual puzzle");
+        puts("\"Programming is like building a multilingual puzzle");
 	return (0);
 }
