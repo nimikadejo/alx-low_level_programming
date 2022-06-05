@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc -Wall -Werror -Wextra -pedantic -std=gnu89 6-print_numberz.c
+gcc -Wall -Werror -Wextra -pedantic -std=gnu89 8-print_base16.c
