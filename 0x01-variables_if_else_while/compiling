@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc -Wall -Werror -Wextra -pedantic -std=gnu89 1-last_digit.c
+gcc -Wall -Werror -Wextra -pedantic -std=gnu89 2-print_alphabet.c
