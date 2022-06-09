@@ -12,7 +12,7 @@ int print_sign(int n)
 	int a;
 	char b;
 
-	if (n >= 0)
+	if (n <= 0)
 	{
 		if (n == 0)
 		{
