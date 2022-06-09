@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc -Wall -Werror -Wextra -pedantic -std=gnu89 2-print_alphabet_x10.c
+gcc -Wall -Werror -Wextra -pedantic -std=gnu89 11-print_to_98.c
