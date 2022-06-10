@@ -9,7 +9,6 @@ int main(void)
 	int z;
 
 	z = 1;
-
 	printf("%d", z);
 	for (z = 2; z <= 100; z++)
 	{
