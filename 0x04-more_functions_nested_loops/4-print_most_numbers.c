@@ -7,20 +7,12 @@
  */
 void print_most_numbers(void)
 {
-	int a;
-	int b;
+	int num;
 
-	for (a = 0; a < 10; a++)
+	for (num = 48; num < 58; num++)
 	{
-		for (b = 0; b <= 14; b++)
-		{
-			if (b > 9)
-			{
-				_putchar((b / 10) + '0');
-			}
-			_putchar((b % 10) + '0');
-		}
-		_putchar('\n');
-	}
+	       	if ( num != 50 && num != 52)
+		       	_putchar(num);
+       	}
+	_putchar('\n');
 }
-
