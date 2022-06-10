@@ -7,15 +7,18 @@
  */
 void print_line(int n)
 {
-	int m;
+	int y;
 
-	for (m = 0; m < n; m++)
+	if (n <= 0)
+	{
+		_putchar('\n');
+	}
+	else
+	{
+	for (y = 0; y < n; y++)
 	{
 		_putchar(95);
 	}
-		for (m = 0; m < n; m++)
-		{
-			_putchar(95);
-		}
-		_putchar('\n');
+	_putchar('\n');
+	}
 }
