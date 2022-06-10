@@ -1,15 +1,15 @@
 #include "main.h"
 
 /**
- * print_most_numbers - prints 0-9 except 2 and 4
+ *print_most_numbers - prints 0-9 except 2 and 4
  *
  * Return: Always 0 (Success)
  */
-void more_numbers(void)
+void print_most_numbers(void)
 {
 	int a;
 	int b;
-	
+
 	for (a = 0; a < 10; a++)
 	{
 		for (b = 0; b <= 14; b++)
@@ -22,6 +22,5 @@ void more_numbers(void)
 		}
 		_putchar('\n');
 	}
-	return;
 }
 

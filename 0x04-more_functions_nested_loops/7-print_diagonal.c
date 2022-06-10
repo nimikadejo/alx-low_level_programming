@@ -4,16 +4,11 @@
  * print_diagonal - prints diagonally
  * @n: integer
  * Return: 0 (Success)
-
-
-
-
-
-
+ */
 void print_diagonal(int n)
 {
-  int y;
-  int z;
+  int l;
+  int m;
 
   if (n <= 0)
   {
@@ -21,9 +16,9 @@ void print_diagonal(int n)
   }
   else
   {
-    for (y = 0; y < n; y++)
+    for (l = 0; l < n; l++)
       {
-          for (z = 0; z < y; z++)
+          for (m = 0; m < l; m++)
            {
                _putchar(32);
            }
@@ -32,5 +27,4 @@ void print_diagonal(int n)
       }
   }
   
-  return;
 }
