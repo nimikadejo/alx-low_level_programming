@@ -18,7 +18,7 @@ int main(void)
 		if (j != maxi)
 			printf("%ld, ", j);
 		else
-			printf("%ld, \n", j);
+			printf("%ld\n", j);
 		l = j + k;
 		j = k;
 		k = l;
