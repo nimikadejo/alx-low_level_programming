@@ -8,8 +8,8 @@
 int main(void)
 {
 	int i;
-	long int j;
-	long int k;
+	long int j = 1;
+	long int k = 2;
 	long int l;
 	long int maxi = 20365011074;
 
