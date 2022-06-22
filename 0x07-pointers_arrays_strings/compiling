@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc -Wall -Werror -Wextra -pedantic -std=gnu89 4-strpbrk.c
+gcc -Wall -Werror -Wextra -pedantic -std=gnu89 8-print_diagsums.c
