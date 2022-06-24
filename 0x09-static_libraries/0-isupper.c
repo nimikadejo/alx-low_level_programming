@@ -1,5 +1,19 @@
 #include "main.h"
 
-int _islower(int c)
+/**
+ * _isupper - checks for upper case
+ * @c: integer to check
+ * Return: 1 on Success
+ * Otherwise 0
+ */
+int _isupper(int c)
 {
+	if (c >= 65 && c <= 90)
+	{
+		return (1);
+	}
+	else
+	{
+		return (0);
+	}
 }
