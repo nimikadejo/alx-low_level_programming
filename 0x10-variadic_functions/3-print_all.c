@@ -41,6 +41,10 @@ void print_string(va_list s)
 	printf("%s", str);
 }
 
+/**
+ * print_all - prints all values
+ * @format: the format
+ */
 void print_all(const char * const format, ...)
 {
 	unsigned int i;
